@@ -30,6 +30,10 @@ group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   # Brings the RSpec testing framework to Ruby on Rails as a drop-in alternative to its default testing framework
   gem 'rspec-rails', '~> 4.0.0'
+  gem 'rubocop'
+  # Performance optimization analysis for your projects
+  gem 'rubocop-performance', require: false
+  # Helps you write more understandable, maintainable Rails-specific tests under Minitest.
 end
 
 group :development do
